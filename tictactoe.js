@@ -1,13 +1,23 @@
-let a = 
-    "/
-ooooo/
-ooooo/
-ooooo/
-ooooo/
-" ;
+let a =
+  "\
+ XXXX\
+ XXXX\
+ XXXX\
+ XXXX\
+ ";
+let b = Array.from(a);
 
+if (a[4] === 4) {
+  a[4] = "D";
+}
 
+a.onclick();
+{
+    a[1] = "S";
+    
+}
 
-let b = Array.from (b);
-
-console.log("Hello World!");
+a.dblclick();
+{
+    a[2] = "D";
+}
